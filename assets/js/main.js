@@ -15,9 +15,10 @@ for(let i=1; i<=100; i++)
     }else if( i % 5 === 0){
         //se la nostra condizione é vera allora stampiamo Buzz
          console.log(`${i} Buzz`);
-    }else{
-        if( i % 3 === 0){
+      //ALTRIMENTI verifichiamo SE la nostra variabile incrementale é divisibile per 3
+    }else if( i % 3 === 0){
+         //se la nostra condizione é vera allora stampiamo Fizz
             console.log(`${i} Fizz`);
         }
-    }
+    
 }
