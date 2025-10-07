@@ -9,9 +9,11 @@ for(let i=1; i<=100; i++)
 {
     // verifichiamo SE la nostra variabile incrementale é divisibile sia per 5 che per 3 
     if( i % 5 === 0 && i % 3 === 0){
+        //se la nostra condizione é vera allora stampiamo FizzBuzz
         console.log(`${i} FizzBuzz`);
-        
+    //ALTRIMENTI verifichiamo SE la nostra variabile incrementale é divisibile per 5
     }else if( i % 5 === 0){
+        //se la nostra condizione é vera allora stampiamo Buzz
          console.log(`${i} Buzz`);
     }else{
         if( i % 3 === 0){
